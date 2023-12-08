@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/dist/main.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de tarefas</title>
+  </head>
+  <body>
+    <main>
+      <h1>Lista de tarefas</h1>
+      <input
+        type="text"
+        id="input-text"
+        placeholder="Escreva a tarefa..."
+        required
+      />
+      <button onclick="addTask()">Adicione</button>
+      <ul id="task-list"></ul>
+    </main>
+  </body>
+  <script src="./dist/script.min.js"></script>
+</html>
